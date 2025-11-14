@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epoch - Your AI Mentor</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.botpress.cloud/webchat/v3.3/inject.js"></script>
+</head>
+<body>
+
+    <script>
+      window.botpress.on("webchat:ready", () => {
+        window.botpress.open();
+      });
+      window.botpress.init({
+        "botId": "bfa03139-34eb-4ab1-8163-351e404b9b03",
+        "configuration": {
+          "version": "v2",
+          "botName": "Vector",
+          "botDescription": "",
+          "website": {},
+          "email": {},
+          "phone": {},
+          "termsOfService": {},
+          "privacyPolicy": {},
+          "color": "#377eb9",
+          "variant": "solid",
+          "headerVariant": "glass",
+          "themeMode": "light",
+          "fontFamily": "inter",
+          "radius": 2,
+          "feedbackEnabled": false,
+          "soundEnabled": false,
+          "proactiveMessageEnabled": false,
+          "proactiveBubbleMessage": "Hi! 👋 Need help?",
+          "proactiveBubbleTriggerType": "afterDelay",
+          "proactiveBubbleDelayTime": 10
+        },
+        "clientId": "73f1c22f-f80a-40ba-a608-18f20c7002ba",
+        "selector": "#webchat"
+      });
+    </script>
+
+</body>
+</html>
